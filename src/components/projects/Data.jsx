@@ -21,7 +21,7 @@ export const projectsData = [
     id: 2,
     image: StyleSphere,
     title: "StyleSphere",
-    technologies: "React | CSS | FakeStoreAPI",
+    technologies: "React | Tailwind | FakeStoreAPI",
     description:
       "This web application serves as a minimalist showcase of my proficiency in fetching data from the FakeStoreAPI and implementing it into a functional tool. The UI design prioritizes simplicity and usability, providing users with an intuitive interface for seamlessly interacting with the fetched data. ",
     category: "API",
@@ -59,7 +59,7 @@ export const projectsData = [
       "UI design for an online course selling website, aiming for an intuitive, attractive, and functional interface to drive user engagement and course purchases. Focused on clear layout, appealing graphics, and responsive design for seamless user experience across devices.",
     category: "UI",
     live: "https://hrs-virtu-class.netlify.app/",
-    github: "https://github.com/HubertSleszynski/course_platform",
+    github: "https://github.com/HubertSleszynski/online-course-platform-ui",
   },
   {
     id: 6,
