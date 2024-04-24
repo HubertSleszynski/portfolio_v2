@@ -1,8 +1,27 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hi! I am Hubert and this is my personal portfolio webiste that I created to showcase my current skills in frontend development.
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+LIVE: [Portfolio](https://hrs-dev.netlify.app/)
+
+## Screenshot
+
+<img src="src/assets/hrs-dev.netlify.app_.png" width="600">
+
+## Tech Stack
+
+Yarn Vite React
+
+## Author
+
+### Hubert Śleszyński
+
+Portfolio: https://hrs-dev.netlify.app/
+
+Linkedin: https://www.linkedin.com/in/hubertsleszynski/
+
+Github: https://github.com/HubertSleszynski
+
+#### This is the second version of my portfolio.
