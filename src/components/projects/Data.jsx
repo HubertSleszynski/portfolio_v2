@@ -1,71 +1,59 @@
 import FurryTrimz from "../../assets/hrs-furry-trimz.netlify.app_.png";
-import Xpense from "../../assets/hrs-xpense.netlify.app_.png";
-import StyleSphere from "../../assets/hrs-style-sphere.netlify.app_.png";
-import VirtuClass from "../../assets/hrs-virtu-class.netlify.app_.png";
 import DancingKnight from "../../assets/hrs-dancing-knight.netlify.app_.png";
-import InspiraNota from "../../assets/blog-website-69054.web.app_(2).png";
+import Yola from "../../assets/hrs-yola.netlify.app_-2.png";
+import gymMe from "../../assets/hrs-gymme.netlify.app_.png";
+import WFood from "../../assets/hrs-wfood2024.netlify.app_.png";
 
 export const projectsData = [
   {
     id: 1,
+    image: WFood,
+    title: "W'Food",
+    technologies: "React | Next | Tailwind | Framer Motion",
+    description:
+      "A sleek and modern website developed for W'food, an Asian cuisine restaurant, utilizing Next.js for optimal performance and Tailwind CSS for a responsive, elegant design. Framer Motion was integrated to add smooth, interactive animations, creating a single-landing page that effectively showcases the restaurant's offerings and encourages reservations. ",
+    category: "Next",
+    live: "https://hrs-wfood2024.netlify.app/",
+    github: "https://github.com/HubertSleszynski/restaurant-website",
+  },
+  {
+    id: 2,
     image: FurryTrimz,
     title: "Furry Trimz",
     technologies: "React | Tailwind ",
     description:
       "Furry Trimz is a project born out of a passion for pet care. This application is a single-page-application designed to allow users to book grooming services at a professional pet salon. The project was built using React and Tailwind, providing both functionality and aesthetic design.",
-    category: "UI",
+    category: "React",
     live: "https://hrs-furry-trimz.netlify.app/",
     github: "https://github.com/HubertSleszynski/furry-trimz",
   },
   {
-    id: 2,
-    image: StyleSphere,
-    title: "StyleSphere",
-    technologies: "React | Tailwind | FakeStoreAPI",
-    description:
-      "This web application serves as a minimalist showcase of my proficiency in fetching data from the FakeStoreAPI and implementing it into a functional tool. The UI design prioritizes simplicity and usability, providing users with an intuitive interface for seamlessly interacting with the fetched data. ",
-    category: "API",
-    live: "https://hrs-style-sphere.netlify.app/",
-    github: "https://github.com/HubertSleszynski/StyleSphere",
-  },
-  {
     id: 3,
-    image: Xpense,
-    title: "Xpense",
+    image: Yola,
+    title: "Yola",
     technologies: "React | Tailwind",
     description:
-      "UI design for a financial management platform, crafted to offer users an intuitive, visually appealing, and efficient interface. Emphasizing a clean layout, visually appealing elements, and responsive design, the interface ensures a seamless user experience across various devices.",
-    category: "UI",
-    live: "https://hrs-xpense.netlify.app/",
-    github: "https://github.com/HubertSleszynski/xpense",
+      "The yoga website, built using React and Tailwind, provides company information with a dynamic counter, showcases an inspiring video modal linking to our YouTube channel, and offers an overview of popular courses. Additionally, it features flexible pricing plans, a newsletter signup form, and a contact form.",
+    category: "React",
+    live: "https://hrs-yola.netlify.app/",
+    github: "https://github.com/HubertSleszynski/yoga-website",
   },
   {
     id: 4,
-    image: InspiraNota,
-    title: "InspiraNota",
-    technologies: "React | CSS | Firebase",
+    image: gymMe,
+    title: "gymMe",
+    technologies: "React | Tailwind",
     description:
-      "This blog/to-do-list application is a tool designed for efficient task management. With its dynamic user interface, you can easily add and remove your posts. By using Firebase database your posts are stored in the cloud which makes it more secuire. Is it possible to complete a portfolio without this?",
-    category: "Logic",
-    live: "https://blog-website-69054.web.app/",
-    github: "https://github.com/HubertSleszynski/blog-app",
+      "A single-page web application for a gym, built with React and Tailwind, offers a clear gym description, an overview of training programs, and detailed pricing plans. Users can browse community photos in an interactive slider and find answers to common questions in the FAQ section. The design ensures a responsive and aesthetically pleasing user experience.",
+    category: "React",
+    live: "https://hrs-gymme.netlify.app/",
+    github: "https://github.com/HubertSleszynski/gymME",
   },
   {
     id: 5,
-    image: VirtuClass,
-    title: "VirtuClass",
-    technologies: "React | Tailwind",
-    description:
-      "UI design for an online course selling website, aiming for an intuitive, attractive, and functional interface to drive user engagement and course purchases. Focused on clear layout, appealing graphics, and responsive design for seamless user experience across devices.",
-    category: "UI",
-    live: "https://hrs-virtu-class.netlify.app/",
-    github: "https://github.com/HubertSleszynski/online-course-platform-ui",
-  },
-  {
-    id: 6,
     image: DancingKnight,
     title: "Dancing Knight",
-    technologies: "React | CSS",
+    technologies: "React | SCSS",
     description:
       "Dancing knight is a type of mathematical puzzle involving moving a knight around a chessboard in such a way that it visits every square exactly once. The knight's movement is restricted - it moves two squares in one direction and one square in another direction, forming an 'L' shape.",
     category: "Logic",
@@ -79,10 +67,10 @@ export const projectsNav = [
     name: "All",
   },
   {
-    name: "UI",
+    name: "React",
   },
   {
-    name: "API",
+    name: "Next",
   },
   {
     name: "Logic",

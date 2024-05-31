@@ -3,13 +3,13 @@ import {
   SiTailwindcss,
   SiJavascript,
   SiStyledcomponents,
+  SiNextdotjs,
 } from "react-icons/si";
 
 export default function Tech() {
   return (
     <div className="skills__content">
       <h3 className="skills__title">Technologies</h3>
-
       <div className="skills__box">
         <div className="skills__group">
           <div className="skills__data">
@@ -52,6 +52,12 @@ export default function Tech() {
             <FaReact />
             <div>
               <h3 className="skills__name">React</h3>
+            </div>
+          </div>
+          <div className="skills__data">
+            <SiNextdotjs />
+            <div>
+              <h3 className="skills__name">Next</h3>
             </div>
           </div>
           <div className="skills__data">

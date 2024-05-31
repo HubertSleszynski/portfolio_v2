@@ -8,7 +8,7 @@ export default function Info() {
       <div className="about__box">
         <SlBadge />
         <h3 className="about__title">Completed</h3>
-        <span className="about__subtitle">25+ Projects</span>
+        <span className="about__subtitle">28+ Projects</span>
       </div>
       <div className="about__box">
         <CgWorkAlt />

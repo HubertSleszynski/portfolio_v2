@@ -1,4 +1,9 @@
-import { SiVisualstudiocode, SiVite, SiFirebase } from "react-icons/si";
+import {
+  SiVisualstudiocode,
+  SiVite,
+  SiFirebase,
+  SiVercel,
+} from "react-icons/si";
 import { FaGithub, FaFigma, FaNpm, FaYarn } from "react-icons/fa";
 import { BiLogoNetlify } from "react-icons/bi";
 
@@ -54,6 +59,12 @@ export default function Tools() {
             <BiLogoNetlify />
             <div>
               <h3 className="skills__name">Netlify</h3>
+            </div>
+          </div>
+          <div className="skills__data">
+            <SiVercel />
+            <div>
+              <h3 className="skills__name">Vercel</h3>
             </div>
           </div>
         </div>
