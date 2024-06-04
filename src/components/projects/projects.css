@@ -30,6 +30,8 @@
   padding: 1.25rem;
   border-radius: 1rem;
   text-align: center;
+  position: relative;
+  height: 650px;
 }
 
 .project__img {
@@ -68,6 +70,9 @@
   display: flex;
   flex-direction: row;
   gap: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 1;
 }
 
 .project__button {
@@ -92,7 +97,7 @@
     grid-template-columns: 1fr;
   }
   .project__img {
-    height: 50%;
+    height: 45%;
     margin-bottom: 0.75rem;
   }
   .project__title {
@@ -100,12 +105,22 @@
   }
   .project__card {
     padding: 1rem;
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .project__img {
+    height: 35%;
+  }
+  .project__card {
+    height: 575px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .project__card {
-    min-height: 550px;
+    height: 560px;
   }
   .project__img {
     height: 35%;
@@ -116,8 +131,8 @@
 }
 
 @media screen and (max-width: 375px) {
-  .project__card {
-    min-height: 500px;
+  .project__description {
+    font-size: var(--smaller-font-size);
   }
 }
 @media screen and (max-width: 320px) {
