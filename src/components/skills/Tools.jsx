@@ -4,7 +4,7 @@ import {
   SiFirebase,
   SiVercel,
 } from "react-icons/si";
-import { FaGithub, FaFigma, FaNpm, FaYarn } from "react-icons/fa";
+import { FaGithub, FaGitAlt, FaFigma, FaNpm, FaYarn } from "react-icons/fa";
 import { BiLogoNetlify } from "react-icons/bi";
 
 export default function Tools() {
@@ -17,6 +17,18 @@ export default function Tools() {
             <SiVisualstudiocode />
             <div>
               <h3 className="skills__name">VS Code</h3>
+            </div>
+          </div>
+          <div className="skills__data">
+            <FaGitAlt />
+            <div>
+              <h3 className="skills__name">Git</h3>
+            </div>
+          </div>
+          <div className="skills__data">
+            <FaGithub />
+            <div>
+              <h3 className="skills__name">Github</h3>
             </div>
           </div>
           <div className="skills__data">
@@ -38,12 +50,6 @@ export default function Tools() {
             </div>
           </div>
           <div className="skills__data">
-            <FaGithub />
-            <div>
-              <h3 className="skills__name">Github</h3>
-            </div>
-          </div>
-          <div className="skills__data">
             <SiFirebase />
             <div>
               <h3 className="skills__name">Firebase</h3>
@@ -59,12 +65,6 @@ export default function Tools() {
             <BiLogoNetlify />
             <div>
               <h3 className="skills__name">Netlify</h3>
-            </div>
-          </div>
-          <div className="skills__data">
-            <SiVercel />
-            <div>
-              <h3 className="skills__name">Vercel</h3>
             </div>
           </div>
         </div>

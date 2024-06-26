@@ -2,6 +2,7 @@ import { FaHtml5, FaCss3Alt, FaSass, FaReact, FaGitAlt } from "react-icons/fa";
 import {
   SiTailwindcss,
   SiJavascript,
+  SiTypescript,
   SiStyledcomponents,
   SiNextdotjs,
 } from "react-icons/si";
@@ -49,6 +50,12 @@ export default function Tech() {
             </div>
           </div>
           <div className="skills__data">
+            <SiTypescript />
+            <div>
+              <h3 className="skills__name">TypeScript</h3>
+            </div>
+          </div>
+          <div className="skills__data">
             <FaReact />
             <div>
               <h3 className="skills__name">React</h3>
@@ -58,12 +65,6 @@ export default function Tech() {
             <SiNextdotjs />
             <div>
               <h3 className="skills__name">Next</h3>
-            </div>
-          </div>
-          <div className="skills__data">
-            <FaGitAlt />
-            <div>
-              <h3 className="skills__name">Git</h3>
             </div>
           </div>
         </div>
