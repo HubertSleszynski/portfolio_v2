@@ -3,6 +3,7 @@ import DancingKnight from "../../assets/hrs-dancing-knight.netlify.app_.png";
 import Yola from "../../assets/hrs-yola.netlify.app_-2.png";
 import gymMe from "../../assets/hrs-gymme.netlify.app_.png";
 import WFood from "../../assets/hrs-wfood2024.netlify.app_.png";
+import FitPhysique from "../../assets/hrs-fitphysique.netlify.app_.png";
 
 export const projectsData = [
   {
@@ -18,14 +19,14 @@ export const projectsData = [
   },
   {
     id: 2,
-    image: FurryTrimz,
-    title: "Furry Trimz",
-    technologies: "React | Tailwind ",
+    image: FitPhysique,
+    title: "FitPhysique",
+    technologies: "Typescript | React | Next.js | TailwindCSS | Framer Motion",
     description:
-      "Furry Trimz is a project born out of a passion for pet care. This application is a single-page-application designed to allow users to book grooming services at a professional pet salon. The project was built using React and Tailwind, providing both functionality and aesthetic design.",
-    category: "React",
-    live: "https://hrs-furry-trimz.netlify.app/",
-    github: "https://github.com/HubertSleszynski/furry-trimz",
+      "Explore this gym website project, showcasing sections on the mission, available classes, trainer team, membership pricing, testimonials, and blog. This single-page application provides a comprehensive look at gym offerings and user experiences in a clean, intuitive interface.",
+    category: "Next",
+    live: "https://hrs-fitphysique.netlify.app/",
+    github: "https://github.com/HubertSleszynski/fit-physique",
   },
   {
     id: 3,
@@ -40,14 +41,14 @@ export const projectsData = [
   },
   {
     id: 4,
-    image: gymMe,
-    title: "gymMe",
-    technologies: "React | Tailwind",
+    image: FurryTrimz,
+    title: "Furry Trimz",
+    technologies: "React | Tailwind ",
     description:
-      "A single-page web application for a gym, built with React and Tailwind, offers a clear gym description, an overview of training programs, and detailed pricing plans. Users can browse community photos in an interactive slider and find answers to common questions in the FAQ section. The design ensures a responsive and aesthetically pleasing user experience.",
+      "Furry Trimz is a project born out of a passion for pet care. This application is a single-page-application designed to allow users to book grooming services at a professional pet salon. The project was built using React and Tailwind, providing both functionality and aesthetic design.",
     category: "React",
-    live: "https://hrs-gymme.netlify.app/",
-    github: "https://github.com/HubertSleszynski/gymME",
+    live: "https://hrs-furry-trimz.netlify.app/",
+    github: "https://github.com/HubertSleszynski/furry-trimz",
   },
   {
     id: 5,
