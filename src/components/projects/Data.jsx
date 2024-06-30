@@ -1,7 +1,6 @@
 import FurryTrimz from "../../assets/hrs-furry-trimz.netlify.app_.png";
 import DancingKnight from "../../assets/hrs-dancing-knight.netlify.app_.png";
-import Yola from "../../assets/hrs-yola.netlify.app_-2.png";
-import gymMe from "../../assets/hrs-gymme.netlify.app_.png";
+import Serene from "../../assets/hrs-serene.netlify.app_.png";
 import WFood from "../../assets/hrs-wfood2024.netlify.app_.png";
 import FitPhysique from "../../assets/hrs-fitphysique.netlify.app_.png";
 
@@ -10,7 +9,7 @@ export const projectsData = [
     id: 1,
     image: WFood,
     title: "W'Food",
-    technologies: "React | Next | Tailwind | Framer Motion",
+    technologies: "React | Next.js | TailwindCSS | Framer Motion",
     description:
       "A sleek and modern website developed for W'food, an Asian cuisine restaurant, utilizing Next.js for optimal performance and Tailwind CSS for a responsive, elegant design. Framer Motion was integrated to add smooth, interactive animations, creating a single-landing page that effectively showcases the restaurant's offerings and encourages reservations. ",
     category: "Next",
@@ -30,20 +29,20 @@ export const projectsData = [
   },
   {
     id: 3,
-    image: Yola,
-    title: "Yola",
-    technologies: "React | Tailwind",
+    image: Serene,
+    title: "Serene",
+    technologies: "React | Next.js | TailwindCSS | Framer Motion",
     description:
-      "The yoga website, built using React and Tailwind, provides company information with a dynamic counter, showcases an inspiring video modal linking to our YouTube channel, and offers an overview of popular courses. Additionally, it features flexible pricing plans, a newsletter signup form, and a contact form.",
-    category: "React",
-    live: "https://hrs-yola.netlify.app/",
-    github: "https://github.com/HubertSleszynski/yoga-website",
+      "My personal web project is a modern beauty salon website featuring Home page with a YouTube video modal, About section for service descriptions, Treatments part for detailing procedures, and Contact with salon info and an inquiry form. It showcases my frontend skills and user-centered design for the beauty industry",
+    category: "Next",
+    live: "https://hrs-serene.netlify.app/",
+    github: "https://github.com/HubertSleszynski/serene",
   },
   {
     id: 4,
     image: FurryTrimz,
     title: "Furry Trimz",
-    technologies: "React | Tailwind ",
+    technologies: "React | TailwindCSS ",
     description:
       "Furry Trimz is a project born out of a passion for pet care. This application is a single-page-application designed to allow users to book grooming services at a professional pet salon. The project was built using React and Tailwind, providing both functionality and aesthetic design.",
     category: "React",
