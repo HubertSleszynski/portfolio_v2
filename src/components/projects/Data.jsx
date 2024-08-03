@@ -3,6 +3,7 @@ import DancingKnight from "../../assets/hrs-dancing-knight.netlify.app_.png";
 import Serene from "../../assets/hrs-serene.netlify.app_.png";
 import WFood from "../../assets/hrs-wfood2024.netlify.app_.png";
 import FitPhysique from "../../assets/hrs-fitphysique.netlify.app_.png";
+import Zenbrew from "../../assets/hrs-zenbrew.netlify.app_.png";
 
 export const projectsData = [
   {
@@ -40,6 +41,17 @@ export const projectsData = [
   },
   {
     id: 4,
+    image: Zenbrew,
+    title: "Zenbrew",
+    technologies: "React | Next.js | TailwindCSS | Framer Motion | GSAP ",
+    description:
+      "This web application offers a captivating presentation of a coffee shop using React, Next.js, TailwindCSS, Framer Motion and GSAP. It features eight sections, including video-enhanced Hero content, an in-depth Menu, and customer Testimonials, all designed to provide a seamless and engaging user experience.",
+    category: "React",
+    live: "https://hrs-zenbrew.netlify.app/",
+    github: "https://github.com/HubertSleszynski/zenbrew",
+  },
+  {
+    id: 5,
     image: FurryTrimz,
     title: "Furry Trimz",
     technologies: "React | TailwindCSS ",
