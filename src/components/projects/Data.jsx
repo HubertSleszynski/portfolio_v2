@@ -62,7 +62,7 @@ export const projectsData = [
     github: "https://github.com/HubertSleszynski/furry-trimz",
   },
   {
-    id: 5,
+    id: 6,
     image: DancingKnight,
     title: "Dancing Knight",
     technologies: "React | SCSS",
